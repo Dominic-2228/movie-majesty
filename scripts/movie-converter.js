@@ -5,7 +5,7 @@ export const generateMoviesHTML = () => {
 
   for (const movie of movies) {
     movieHTML += `
-    <article  class="movie"
+    <article  class="movie">
       <img src="${movie.poster}" alt="${movie.title} poster" class="movie_poster">
       <div class="movie_details"> 
         <h2 class="movie_title">${movie.title}</h2>
